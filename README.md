@@ -1,6 +1,6 @@
 # Net Core 5 Basic Restull application based on Onion Architecture with Redis Cache
 
-Basic RESTful project based on Onion architecture using Redis Cache.
+Basic RESTful project based on Onion architecture using Redis Cache, Ardalis (repository package that implemenets all necessary methods), Fluent validation and JWT for security.
 
 ## Installation
 
