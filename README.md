@@ -16,7 +16,8 @@ Pretty straightforward, just modify the appsettings.json file located on WebAPI 
 ## Usage
 
 1. Set the WebAPI project as the main project on the presentation folder
-2. After changing the connectionString you need to execute a migration, do this by applying the following commands:
+2. After changing the connectionString you need to execute a migration, do this by opening "Console package administrator" then selecting "Persistence" as default project, finally applyi the following commands:
+
 ```bash
 add-migration Initial
 update-database
@@ -28,7 +29,7 @@ https://github.com/microsoftarchive/redis/releases/tag/win-3.0.504
 ```
 
 To run redis, just extract the package, then execute redis-server.exe and minimize the window.
-You can also  test if redis is running without issues by executing "redis-cli.exe" and sending the command "ping", you should recive "pong" as a response, then close the client window.
+You can also  test if redis is running without issues by executing "redis-cli.exe" and sending the command "ping", you should receive "pong" as a response, then close the client window.
 
 ```bash
 $ redis-cli ping
